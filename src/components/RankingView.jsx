@@ -20,7 +20,7 @@ RankingView.defaultProps = {
 };
 
 RankingView.propTypes = {
-  handleExit: PropTypes.number,
+  showLimit: PropTypes.number,
 };
 
 export default RankingView;
