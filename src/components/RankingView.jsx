@@ -15,8 +15,12 @@ function RankingView({ showLimit }) {
   );
 }
 
+RankingView.defaultProps = {
+  showLimit: undefined,
+};
+
 RankingView.propTypes = {
-  showLimit: PropTypes.number.isRequired,
+  handleExit: PropTypes.number,
 };
 
 export default RankingView;
