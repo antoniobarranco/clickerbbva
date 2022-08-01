@@ -14,7 +14,7 @@ function BreadCrumbs({ Text, handleExit }) {
           <button className="btn btn-outline-light" type="button" onClick={handleExit}>
             <i className="bi bi-box-arrow-in-right" />
             {' '}
-            Exit
+            Close
           </button>
         </div>
         )}

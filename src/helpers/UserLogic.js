@@ -27,9 +27,18 @@ export const LoadUser = (player) => {
 };
 
 //
-// Save userto local storage from their player name and gamestate.
+// Save user to local storage from their player name and gamestate.
 //
 
 export const SaveUser = (gameState, player) => {
   localStorage.setItem(player, JSON.stringify(gameState));
+};
+
+//
+// Retrieve an array with all users on Local Storage
+//
+
+export const GetAllUsers = () => {
+  const localStorageValues =  Object.values(localStorage);
+  return localStorageValues.map(item => JSON.parse(item));
 };
