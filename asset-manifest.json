@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/clickerbbva/static/css/main.f638b145.css",
-    "main.js": "/clickerbbva/static/js/main.ff33f99e.js",
+    "main.js": "/clickerbbva/static/js/main.f9f66e7d.js",
     "static/js/787.6625042b.chunk.js": "/clickerbbva/static/js/787.6625042b.chunk.js",
     "static/media/bootstrap-icons.woff?": "/clickerbbva/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/clickerbbva/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "service-worker.js": "/clickerbbva/service-worker.js",
     "index.html": "/clickerbbva/index.html",
     "main.f638b145.css.map": "/clickerbbva/static/css/main.f638b145.css.map",
-    "main.ff33f99e.js.map": "/clickerbbva/static/js/main.ff33f99e.js.map",
+    "main.f9f66e7d.js.map": "/clickerbbva/static/js/main.f9f66e7d.js.map",
     "787.6625042b.chunk.js.map": "/clickerbbva/static/js/787.6625042b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f638b145.css",
-    "static/js/main.ff33f99e.js"
+    "static/js/main.f9f66e7d.js"
   ]
 }
