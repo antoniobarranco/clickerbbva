@@ -5,7 +5,7 @@ import { formatNumericValue } from '../helpers/GameLogic';
 
 const RankingViewRow = ({user, score}) => {
   return (
-      <li className="list-group-item d-flex justify-content-between align-items-center">
+      <li className="list-group-item d-flex justify-content-between align-items-center" data-testid="RankingRow">
         {user}
       <span className="badge bg-secondary rounded-pill">{formatNumericValue(score)}</span>
     </li>

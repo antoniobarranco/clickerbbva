@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on LoginView component Test LoginView with Snapshot test for UI changes 1`] = `
+Array [
+  <nav
+    className="navbar navbar-dark bg-primary bg-opacity-75"
+  >
+    <div
+      className="container-fluid"
+    >
+      <span
+        className="navbar-brand mb-0 h1"
+        data-testid="BreadCrumbsText"
+      >
+        Please, enter your name...
+      </span>
+    </div>
+  </nav>,
+  <div
+    className="d-grid gap-2 col-6  my-5 mx-auto"
+  >
+    <form
+      data-testid="FormLogin"
+      onSubmit={[Function]}
+    >
+      <div
+        className="input-group mb-3"
+      >
+        <input
+          aria-describedby="button-submit"
+          aria-label="User name to play"
+          className="form-control"
+          max="25"
+          min="3"
+          name="userName"
+          onChange={[Function]}
+          pattern="[a-zA-Z0-9-]+"
+          placeholder="Put your name"
+          required={true}
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-primary"
+          data-testid="ButtonLogin"
+          id="button-submit"
+          type="submit"
+        >
+          <i
+            className="bi bi-joystick"
+          />
+           Let's Play
+        </button>
+      </div>
+    </form>
+    <div
+      className="alert alert-primary"
+      role="alert"
+    >
+      You can choose a name composed by letters and numbers. Minimum size is 3 and maximum 25. Remember that if you already played your progress was saved.
+    </div>
+    <button
+      className="btn btn-primary btn-lg"
+      data-testid="ButtonRankings"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="bi bi-bar-chart-line-fill"
+      />
+       Rankings
+    </button>
+  </div>,
+]
+`;

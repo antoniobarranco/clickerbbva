@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on RankingView component Test RankingView with Snapshot test for UI changes 1`] = `
+Array [
+  <nav
+    className="navbar navbar-dark bg-primary bg-opacity-75"
+  >
+    <div
+      className="container-fluid"
+    >
+      <span
+        className="navbar-brand mb-0 h1"
+        data-testid="BreadCrumbsText"
+      >
+        Ranking
+      </span>
+      <div
+        className="d-flex"
+      >
+        <button
+          className="btn btn-outline-light"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="bi bi-box-arrow-in-right"
+          />
+           
+          Close
+        </button>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="d-grid gap-2 col-8  my-5 mx-auto"
+  >
+    <ul
+      className="list-group"
+    >
+      <li
+        className="list-group-item d-flex justify-content-between align-items-center active"
+      >
+        Game Ranking
+      </li>
+    </ul>
+  </div>,
+]
+`;

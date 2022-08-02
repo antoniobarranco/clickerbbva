@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on GameView component Test GameView with Snapshot test for UI changes 1`] = `
+Array [
+  <nav
+    className="navbar navbar-dark bg-primary bg-opacity-75"
+  >
+    <div
+      className="container-fluid"
+    >
+      <span
+        className="navbar-brand mb-0 h1"
+        data-testid="BreadCrumbsText"
+      >
+        Hi unnamed!
+      </span>
+      <div
+        className="d-flex"
+      >
+        <button
+          className="btn btn-outline-light"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="bi bi-box-arrow-in-right"
+          />
+           
+          Close
+        </button>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="d-grid gap-2 col-6 my-5 mx-auto"
+  >
+    <h1
+      className="display-1 text-center"
+    >
+      <pre>
+        <span
+          className="badge bg-secondary"
+        >
+          0 Hits
+        </span>
+      </pre>
+    </h1>
+  </div>,
+  <div
+    className="d-grid gap-2 col-6  my-5 mx-auto"
+  >
+    <button
+      className="btn btn-primary btn-lg"
+      data-testid="HitButton"
+      onClick={[Function]}
+      type="button"
+    >
+      Hit
+    </button>
+    <button
+      aria-disabled={true}
+      className="btn btn-warning btn-lg"
+      data-testid="autoClickerButton"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="bi bi-star"
+      />
+       
+      Buy AutoClicker
+       
+      <span
+        className="badge text-bg-light"
+      >
+        x
+        0
+      </span>
+    </button>
+    <button
+      aria-disabled={true}
+      className="btn btn-danger btn-lg"
+      data-testid="megaClickerButton"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="bi bi-star-fill"
+      />
+       
+      Buy MegaClicker
+       
+      <span
+        className="badge text-bg-light"
+      >
+        x
+        0
+      </span>
+    </button>
+  </div>,
+  <div
+    className="d-grid gap-2 col-8  my-5 mx-auto"
+  >
+    <ul
+      className="list-group"
+    >
+      <li
+        className="list-group-item d-flex justify-content-between align-items-center active"
+      >
+        Game Stats
+      </li>
+      <li
+        className="list-group-item d-flex justify-content-between align-items-center"
+      >
+        Increment every
+         
+        100
+        ms
+        <span
+          className="badge bg-primary rounded-pill"
+          data-testid="clickersIncrement"
+        >
+          0
+        </span>
+      </li>
+      <li
+        className="list-group-item d-flex justify-content-between align-items-center"
+      >
+        AutoClickers cost
+         
+        <span
+          className="badge bg-primary rounded-pill"
+          data-testid="autoClickerCost"
+        >
+          0
+        </span>
+      </li>
+      <li
+        className="list-group-item d-flex justify-content-between align-items-center"
+      >
+        MegaClickers cost
+         
+        <span
+          className="badge bg-primary rounded-pill"
+          data-testid="megaClickerCost"
+        >
+          0
+        </span>
+      </li>
+    </ul>
+  </div>,
+]
+`;

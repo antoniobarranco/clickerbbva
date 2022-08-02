@@ -7,8 +7,8 @@ function GameViewControls({
 }) {
   return (
     <div className="d-grid gap-2 col-6  my-5 mx-auto">
-      <button type="button" className="btn btn-primary btn-lg" onClick={hitHandle}>Hit</button>
-      <button type="button" aria-disabled={!canBuyAutoClicker} disabled={!canBuyAutoClicker} className="btn btn-warning btn-lg" onClick={autoClickerHandle}>
+      <button type="button" className="btn btn-primary btn-lg" onClick={hitHandle} data-testid="HitButton">Hit</button>
+      <button type="button" aria-disabled={!canBuyAutoClicker} disabled={!canBuyAutoClicker} className="btn btn-warning btn-lg" onClick={autoClickerHandle} data-testid="autoClickerButton">
         <i className="bi bi-star" />
         {' '}
         Buy AutoClicker
@@ -18,7 +18,7 @@ function GameViewControls({
           {autoClickers}
         </span>
       </button>
-      <button type="button" aria-disabled={!canBuyMegaClicker} disabled={!canBuyMegaClicker} className="btn btn-danger btn-lg" onClick={megaClickerHandle}>
+      <button type="button" aria-disabled={!canBuyMegaClicker} disabled={!canBuyMegaClicker} className="btn btn-danger btn-lg" onClick={megaClickerHandle} data-testid="megaClickerButton">
         <i className="bi bi-star-fill" />
         {' '}
         Buy MegaClicker

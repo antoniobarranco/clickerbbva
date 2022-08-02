@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on GameViewControls component Test GameViewControls with Snapshot test for UI changes 1`] = `
+<div
+  className="d-grid gap-2 col-6  my-5 mx-auto"
+>
+  <button
+    className="btn btn-primary btn-lg"
+    data-testid="HitButton"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Hit
+  </button>
+  <button
+    aria-disabled={true}
+    className="btn btn-warning btn-lg"
+    data-testid="autoClickerButton"
+    disabled={true}
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="bi bi-star"
+    />
+     
+    Buy AutoClicker
+     
+    <span
+      className="badge text-bg-light"
+    >
+      x
+    </span>
+  </button>
+  <button
+    aria-disabled={true}
+    className="btn btn-danger btn-lg"
+    data-testid="megaClickerButton"
+    disabled={true}
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="bi bi-star-fill"
+    />
+     
+    Buy MegaClicker
+     
+    <span
+      className="badge text-bg-light"
+    >
+      x
+    </span>
+  </button>
+</div>
+`;

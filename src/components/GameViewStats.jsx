@@ -13,19 +13,19 @@ function GameViewStats({
         <li className="list-group-item d-flex justify-content-between align-items-center">
           Increment every
           {' '}
-          {timeInterval}
+         {timeInterval}
           ms
-          <span className="badge bg-primary rounded-pill">{clickersIncrement}</span>
+          <span className="badge bg-primary rounded-pill"  data-testid="clickersIncrement">{clickersIncrement}</span>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-center">
           AutoClickers cost
           {' '}
-          <span className="badge bg-primary rounded-pill">{autoClickerCost}</span>
+          <span className="badge bg-primary rounded-pill"  data-testid="autoClickerCost">{autoClickerCost}</span>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-center">
           MegaClickers cost
           {' '}
-          <span className="badge bg-primary rounded-pill">{megaClickerCost}</span>
+          <span className="badge bg-primary rounded-pill"  data-testid="megaClickerCost">{megaClickerCost}</span>
         </li>
       </ul>
     </div>
