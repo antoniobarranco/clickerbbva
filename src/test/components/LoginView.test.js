@@ -20,7 +20,7 @@ describe('Tests on LoginView component', () => {
 
       const input = screen.getByPlaceholderText(/Put your name/i);
 
-      fireEvent.change(input, {target: {value: name}})
+      fireEvent.change(input, {target: {value: name}});
       expect(input.value).toBe(name);
 
     })

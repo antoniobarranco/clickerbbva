@@ -10,7 +10,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ClickerApp />,
+  <React.StrictMode>
+    <ClickerApp />
+  </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change

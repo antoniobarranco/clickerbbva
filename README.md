@@ -12,6 +12,8 @@ I have used a classical architecture for data and state management, with signifi
 
 The simple approach lets us more testeable components because they usually only depends on their own props and common helper functions.
 
+The main functionality, the game view, was done throught a side effect to let timer to update DOM without collisions with React VirtualDOM. Instead of creating multiple timers I decided to optimize calculating the increments on every cycle. So there are helper functions that calc these parameters according to current state of gameplay. By this approach we get a unique timed loop, like in classic and saving resources videogames.
+
 For the deployment I setup an automatic GitHub deploy workflow that builds the APP on GitHub Pages after successful commits.
 
 For testing requirements, I had experience using Enzyme.JS, but it lack support for last React version (>18), so I used modern snapshot capabilities of Jest and React Testing Library for the purposes that requires some interaction and reading results.
