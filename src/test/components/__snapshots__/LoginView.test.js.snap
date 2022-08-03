@@ -17,10 +17,9 @@ Array [
     </div>
   </nav>,
   <div
-    className="d-grid gap-2 col-6  my-5 mx-auto"
+    className="d-grid gap-2 col-6 my-5 mx-auto"
   >
     <form
-      data-testid="FormLogin"
       onSubmit={[Function]}
     >
       <div
@@ -30,8 +29,8 @@ Array [
           aria-describedby="button-submit"
           aria-label="User name to play"
           className="form-control"
-          max="25"
-          min="3"
+          maxLength="25"
+          minLength="3"
           name="userName"
           onChange={[Function]}
           pattern="[a-zA-Z0-9-]+"
@@ -42,7 +41,6 @@ Array [
         />
         <button
           className="btn btn-primary"
-          data-testid="ButtonLogin"
           id="button-submit"
           type="submit"
         >
@@ -61,7 +59,6 @@ Array [
     </div>
     <button
       className="btn btn-primary btn-lg"
-      data-testid="ButtonRankings"
       onClick={[Function]}
       type="button"
     >

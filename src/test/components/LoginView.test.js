@@ -18,8 +18,6 @@ describe('Tests on LoginView component', () => {
 
       render(<LoginView />);
 
-      const handlePlay = jest.fn();
-
       const input = screen.getByPlaceholderText(/Put your name/i);
 
       fireEvent.change(input, {target: {value: name}})
